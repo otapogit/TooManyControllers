@@ -11,11 +11,11 @@ public class AdventurePlayer : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        EventManager.WKeyPressed += MoveUp();
-        EventManager.AKeyPressed += MoveLeft();
-        EventManager.DKeyPressed += MoveRight();
-        EventManager.XKeyPressed += MoveDown();    
-        EventManager.NoWAXDKeyPressed += MoveNone();    
+        EventManager.WKeyPressed += MoveUp;
+        EventManager.AKeyPressed += MoveLeft;
+        EventManager.DKeyPressed += MoveRight;
+        EventManager.XKeyPressed += MoveDown;    
+        EventManager.NoWaxdKeyPressed += MoveNone;    
     }
 
     // Update is called once per frame
@@ -24,28 +24,24 @@ public class AdventurePlayer : MonoBehaviour
 
     }
 
-    Action MoveRight(){
+    void MoveRight(){
         rb.velocity = new Vector3(1 * speed,0,0);
-        return null;    
     }
 
-    Action MoveUp(){
+    void MoveUp(){
+        
         rb.velocity = new Vector3(0,1* speed,0);
-        return null;
     }
 
-    Action MoveDown(){
+    void MoveDown(){
         rb.velocity = new Vector3(0,-1* speed,0);
-        return null;
     }
 
-    Action MoveLeft(){
+    void MoveLeft(){
         rb.velocity = new Vector3(-1* speed,0,0);
-        return null;
     }
     
-    Action MoveNone(){
+    void MoveNone(){
         rb.velocity = new Vector3(0,0,0);
-        return null;
     }
 }
