@@ -20,6 +20,8 @@ public class EventManager : MonoBehaviour
     public static Action LeftKeyPressed;
     public static Action RightKeyPressed;
     public static Action EnterKeyPressed;
+    
+    public static Action NoWAXDKeyPressed;
 
 
     private void Start()
@@ -37,59 +39,64 @@ public class EventManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKey(KeyCode.W))
         {
             WKeyPressed?.Invoke();
         }
 
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKey(KeyCode.A))
         {
             AKeyPressed?.Invoke();
         }
 
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKey(KeyCode.X))
         {
             XKeyPressed?.Invoke();
         }
 
-        if (Input.GetKeyDown(KeyCode.D))
+        if (Input.GetKey(KeyCode.D))
         {
             DKeyPressed?.Invoke();
         }
 
-        if (Input.GetKeyDown(KeyCode.J))
+        if (Input.GetKey(KeyCode.J))
         {
             JKeyPressed?.Invoke();
         }
 
-        if (Input.GetKeyDown(KeyCode.K))
+        if (Input.GetKey(KeyCode.K))
         {
             KKeyPressed?.Invoke();
         }
 
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.UpArrow))
         {
             UpKeyPressed?.Invoke();
         }
 
-        if (Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.DownArrow))
         {
             DownKeyPressed?.Invoke();
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             LeftKeyPressed?.Invoke();
         }
 
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             RightKeyPressed?.Invoke();
         }
 
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKey(KeyCode.Return))
         {
             EnterKeyPressed?.Invoke();
+        }
+
+        if (!(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.X) || Input.GetKey(KeyCode.D)))
+        {
+            NoWAXDKeyPressed?.Invoke();
         }
     }
 }
