@@ -4,20 +4,33 @@ using UnityEngine;
 
 public class ChangeChannel :  MonoBehaviour,Button
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public GameObject left, right, up, down;
+    Animator anim;
+
+
+    void Awake()
     {
-        
+        anim = GetComponent<Animator>();
     }
 
-    public GameObject left, right, up, down = null;
+    public void SetSelected(){
+        anim.SetBool("selected", true);
+    }
+    public void SetUnselected(){
+        anim.SetBool("selected", false);
+    }
 
-    public  Button ChangeButton(int x, int y){
+    public void SetPressed(){
+        anim.SetTrigger("pressed");
+    }
+
+    public ChangeChannel ChangeButton(int x, int y){
         //En verdad esto no hace la accion
-        if(right != null||x > 0 ) return right.GetComponent<Button>();
-        else if(left != null||x < 0) return left.GetComponent<Button>();
-        else if(up != null||y > 0) return up.GetComponent<Button>();
-        else if(down != null||y < 0) return down.GetComponent<Button>();
+        if(x > 0 ) return right.GetComponent<ChangeChannel>();
+        else if(x < 0) return left.GetComponent<ChangeChannel>();
+        else if(y > 0) return up.GetComponent<ChangeChannel>();
+        else if(y < 0) return down.GetComponent<ChangeChannel>();
         else return this;
     }
     public  void ExecuteAction(){

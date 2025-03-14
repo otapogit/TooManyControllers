@@ -6,6 +6,8 @@ public interface Button
 {
 
 
-    public abstract Button ChangeButton(int x, int y);
     public abstract void ExecuteAction();
+    public void SetSelected();
+    public void SetUnselected();
+    public void SetPressed();
 }
