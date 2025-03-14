@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class AdventurePlayer : MonoBehaviour
 {
@@ -10,37 +11,46 @@ public class AdventurePlayer : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        EventManager.WKeyPressed += MoveUp();
+        EventManager.AKeyPressed += MoveLeft();
+        EventManager.DKeyPressed += MoveRight();
+        EventManager.XKeyPressed += MoveDown();        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.W)){
-            MoveUp();
-        }else if(Input.GetKey(KeyCode.D)){
+        if(Input.GetKey(KeyCode.D)){
             MoveRight();
         }else if(Input.GetKey(KeyCode.X)){
             MoveDown();
         }else if(Input.GetKey(KeyCode.A)){
             MoveLeft();
-        }else{
-            rb.velocity = new Vector3(0,0,0);
         }
     }
 
-    void MoveRight(){
+    Action MoveRight(){
         rb.velocity = new Vector3(1 * speed,0,0);
+        return null;    
     }
 
-    void MoveUp(){
+    Action MoveUp(){
         rb.velocity = new Vector3(0,1* speed,0);
+        return null;
     }
 
-    void MoveDown(){
+    Action MoveDown(){
         rb.velocity = new Vector3(0,-1* speed,0);
+        return null;
     }
 
-    void MoveLeft(){
+    Action MoveLeft(){
         rb.velocity = new Vector3(-1* speed,0,0);
+        return null;
+    }
+    
+    Action MoveNone(){
+        rb.velocity = new Vector3(0,0,0);
+        return null;
     }
 }
