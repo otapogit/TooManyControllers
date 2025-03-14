@@ -18,6 +18,9 @@ public class TVManager : MonoBehaviour
     bool shopsubbed = false;
     // Start is called before the first frame update
 
+    [Header("Mierda")]
+    public Material sadbabtex;
+
     void Awake(){
         if(instance == null){
             instance = this;
@@ -44,15 +47,20 @@ public class TVManager : MonoBehaviour
         UnsubAll();
         switch(channel){
             case 1: 
-            advplayer.Activate();
-            tv.GetComponent<Renderer>().material = advtexture;
-            advsubbed = true;
-            break;
+                advplayer.Activate();
+                tv.GetComponent<Renderer>().material = advtexture;
+                advsubbed = true;
+                break;
             case 2:
-            shop.Activate();
-            tv.GetComponent<Renderer>().material = shoptexture;
-            shopsubbed = true;
-            break;
+                shop.Activate();
+                tv.GetComponent<Renderer>().material = shoptexture;
+                shopsubbed = true;
+                break;
+
+            case 7:
+                tv.GetComponent<Renderer>().material = sadbabtex;
+                break;
+                //lol
             default: break;
         }
     }
