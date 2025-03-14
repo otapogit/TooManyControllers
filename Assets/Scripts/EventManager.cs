@@ -58,11 +58,11 @@ public class EventManager : MonoBehaviour
             NoWaxdKeyPressed?.Invoke();
         }
 
-        if (Input.GetKey(KeyCode.J))
+        if (Input.GetKeyDown(KeyCode.J))
         {
             JKeyPressed?.Invoke();
         }
-        if (Input.GetKey(KeyCode.K))
+        if (Input.GetKeyDown(KeyCode.K))
         {
             KKeyPressed?.Invoke();
         }
