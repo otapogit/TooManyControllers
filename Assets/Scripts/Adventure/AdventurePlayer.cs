@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class AdventurePlayer : MonoBehaviour
 {
@@ -23,7 +24,6 @@ public class AdventurePlayer : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        Activate();
         attacker = null;
     }
 
@@ -109,11 +109,11 @@ public class AdventurePlayer : MonoBehaviour
         }
     }
 
-    void lose(){
-
+    public void lose(){
+        SceneManager.LoadScene("SplashScene");
     }
 
-    void Activate(){
+    public void Activate(){
         EventManager.WKeyPressed += MoveUp;
         EventManager.AKeyPressed += MoveLeft;
         EventManager.DKeyPressed += MoveRight;
@@ -121,7 +121,7 @@ public class AdventurePlayer : MonoBehaviour
         EventManager.NoWaxdKeyPressed += MoveNone; 
     }
 
-    void DeActivate(){
+    public void DeActivate(){
         EventManager.WKeyPressed -= MoveUp;
         EventManager.AKeyPressed -= MoveLeft;
         EventManager.DKeyPressed -= MoveRight;
