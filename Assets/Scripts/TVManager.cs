@@ -10,15 +10,26 @@ public class TVManager : MonoBehaviour
 
     public GameObject tv;
     public AudioClip changesound;
+    public List<Material> basematerial;
     [Header("Adventure")]
     public AdventurePlayer advplayer;
     public Material advtexture;
     bool advsubbed = false;
+    float timingadv = 0;
+    public AudioClip advfirst;
+    public AudioClip advloop;
+    public AudioSource advsource;
+
     [Header("Shop")]
     public ShopManager shop;
     public Material shoptexture;
     bool shopsubbed = false;
     // Start is called before the first frame update
+
+    [Header("TeleKebab")]
+    public TeleKebabController tvkb;
+    public Material tvkbtexture;
+    bool tvkbsubbed = false;
 
     [Header("Mierda")]
     public Material sadbabtex;
@@ -35,7 +46,7 @@ public class TVManager : MonoBehaviour
     void Start()
     {
         source = GetComponent<AudioSource>();
-        ChangeChannel(1);
+        ChangeChannel(0);
     }
 
     // Update is called once per frame
@@ -56,6 +67,10 @@ public class TVManager : MonoBehaviour
                 advplayer.Activate();
                 tv.GetComponent<Renderer>().material = advtexture;
                 advsubbed = true;
+                
+                //acabar esto
+                if(timingadv > advfirst.length) advsource.clip = advloop;
+                advsource.Play();
                 break;
             case 2:
                 shop.Activate();
@@ -70,6 +85,19 @@ public class TVManager : MonoBehaviour
                 source.time = timing;
                 source.Play();
                 break;
+            case 6:
+                tv.GetComponent<Renderer>().material = tvkbtexture;
+                tvkb.Activate();
+                tvkbsubbed = true;
+                break;
+
+            case 0:
+                tv.GetComponent<Renderer>().material = basematerial[0];
+                break;
+
+            case 10:
+                tv.GetComponent<Renderer>().material = basematerial[1];
+                break;    
                 //lol
             default: break;
         }
@@ -79,6 +107,7 @@ public class TVManager : MonoBehaviour
         if(advsubbed){
             advsubbed = false;
             advplayer.DeActivate();
+            advsource.Pause();
         }
         if(shopsubbed){
             shopsubbed = false;
@@ -89,6 +118,10 @@ public class TVManager : MonoBehaviour
             source.Stop();
             source.clip = null;
 
+        }
+        if(tvkbsubbed){
+            tvkbsubbed = false;
+            tvkb.DeActivate();
         }
     }
 }

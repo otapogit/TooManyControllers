@@ -28,7 +28,6 @@ public class TeleKebabController : MonoBehaviour
     
     void Awake()
     {
-        Activate();
         
         _selectableObjectsOutline = selectableObjects.Select(o => o.GetComponent<Outline>()).ToList();
         
