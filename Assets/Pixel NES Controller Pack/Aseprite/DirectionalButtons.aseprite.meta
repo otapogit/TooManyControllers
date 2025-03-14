@@ -1,0 +1,1137 @@
+fileFormatVersion: 2
+guid: 34c2cbbb93c108a45be3ae1b635fe19c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: DirectionalButtons_Frame_0
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 100
+      height: 100
+    spriteID: 6e6ed30a876cb3941b35420e49887564
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: DirectionalButtons_Frame_1
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 112
+      width: 100
+      height: 100
+    spriteID: e286f96c9ca0e10429131fcba97bb244
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 112}
+  - name: DirectionalButtons_Frame_2
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 220
+      width: 100
+      height: 100
+    spriteID: 132dc60382876424f828f82a87d868a9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 220}
+  - name: DirectionalButtons_Frame_3
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 328
+      width: 100
+      height: 100
+    spriteID: 6d0b54bed405f8349a4bcc5d8f75e840
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 328}
+  - name: DirectionalButtons_Frame_4
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 436
+      width: 100
+      height: 100
+    spriteID: 3a7e80b0e98d30744942eff36c93aac9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 436}
+  - name: DirectionalButtons_Frame_5
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 544
+      width: 100
+      height: 100
+    spriteID: e38e37d92e71ca045a793bcb9120acc7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 544}
+  - name: DirectionalButtons_Frame_6
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 652
+      width: 100
+      height: 100
+    spriteID: 66e4c6641bc88524cbeb307925ed2efc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 652}
+  - name: DirectionalButtons_Frame_7
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 760
+      width: 100
+      height: 100
+    spriteID: 9b4f65ff9efb91344b1ff49633509249
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 760}
+  - name: DirectionalButtons_Frame_8
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 868
+      width: 100
+      height: 100
+    spriteID: 3feff523ea535de4fb368bed36f8cf3b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 868}
+  - name: DirectionalButtons_Frame_9
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 4
+      width: 100
+      height: 100
+    spriteID: 8e70c2d22311fce4f9ce2f21c564030e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 4}
+  - name: DirectionalButtons_Frame_10
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 112
+      width: 100
+      height: 100
+    spriteID: 7e402c7e3628a7d41ada7496ccd4eada
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 112}
+  - name: DirectionalButtons_Frame_11
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 220
+      width: 100
+      height: 100
+    spriteID: 88c580137b50d714fba4b136840edcc5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 220}
+  - name: DirectionalButtons_Frame_12
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 328
+      width: 100
+      height: 100
+    spriteID: f7bd3f1e597af5046a82ae75888fe6b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 328}
+  - name: DirectionalButtons_Frame_13
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 436
+      width: 100
+      height: 100
+    spriteID: 57cd3e280bff335469cd9a851d841b67
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 436}
+  - name: DirectionalButtons_Frame_14
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 544
+      width: 100
+      height: 100
+    spriteID: fa794fb13b5376d4a812b2cbc2b459b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 544}
+  - name: DirectionalButtons_Frame_15
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 652
+      width: 100
+      height: 100
+    spriteID: 793f8a1f47cf7d94db03f1dd7fbf9c26
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 652}
+  - name: DirectionalButtons_Frame_16
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 760
+      width: 100
+      height: 100
+    spriteID: 7c79087a62020064fa99502dc7792bad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 760}
+  - name: DirectionalButtons_Frame_17
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 868
+      width: 100
+      height: 100
+    spriteID: 5665cf1b5c0416947a42eeed3d07b5af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 868}
+  - name: DirectionalButtons_Frame_18
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 4
+      width: 100
+      height: 100
+    spriteID: 29e1c380f5caac848a10f324396e610b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 4}
+  - name: DirectionalButtons_Frame_19
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 112
+      width: 100
+      height: 100
+    spriteID: e31adb4d069ea234d8a44ca3ab1a52cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 112}
+  - name: DirectionalButtons_Frame_20
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 220
+      width: 100
+      height: 100
+    spriteID: dde3a69f36f2137479cb477408b2db9f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 220}
+  - name: DirectionalButtons_Frame_21
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 328
+      width: 100
+      height: 100
+    spriteID: 13343d8f8a939574ca32d3f5cf65ad02
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 328}
+  - name: DirectionalButtons_Frame_22
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 436
+      width: 100
+      height: 100
+    spriteID: e8d7511497e6b464d91ade3c07693524
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 436}
+  - name: DirectionalButtons_Frame_23
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 544
+      width: 100
+      height: 100
+    spriteID: 4fddc29130331774cb9292bc24fb5e23
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 544}
+  - name: DirectionalButtons_Frame_24
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 652
+      width: 100
+      height: 100
+    spriteID: 24fa66fe76bc6be47b59276a5c070a32
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 652}
+  - name: DirectionalButtons_Frame_25
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 760
+      width: 100
+      height: 100
+    spriteID: 155dc3980c405e44e9c73fc78919b7c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 760}
+  - name: DirectionalButtons_Frame_26
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 868
+      width: 100
+      height: 100
+    spriteID: a2159395be5a30841848ed65e26209d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 868}
+  - name: DirectionalButtons_Frame_27
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 328
+      y: 4
+      width: 100
+      height: 100
+    spriteID: c0412f0489bb0bd4bb92f6eeb6a0d264
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 328, y: 4}
+  - name: DirectionalButtons_Frame_28
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 328
+      y: 112
+      width: 100
+      height: 100
+    spriteID: 093c2edc38f8b3f48b7c063faeec050e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 328, y: 112}
+  - name: DirectionalButtons_Frame_29
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 328
+      y: 220
+      width: 100
+      height: 100
+    spriteID: 40e954357ecdded46991425fbe3d429a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 328, y: 220}
+  - name: DirectionalButtons_Frame_30
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 328
+      y: 328
+      width: 100
+      height: 100
+    spriteID: c59d9d6eea1e3af4b876bb7e23fedbdd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 328, y: 328}
+  - name: DirectionalButtons_Frame_31
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 328
+      y: 436
+      width: 100
+      height: 100
+    spriteID: ef054a95eb888d140a51dea3140bf934
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 328, y: 436}
+  - name: DirectionalButtons_Frame_32
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 328
+      y: 544
+      width: 100
+      height: 100
+    spriteID: 8e0cac7804028784bb83b92440a1a5f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 328, y: 544}
+  - name: DirectionalButtons_Frame_33
+    originalName: 
+    pivot: {x: 0.16, y: 0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 328
+      y: 652
+      width: 100
+      height: 100
+    spriteID: 7b4a8e04bfd8b5d458c984d630f4c374
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 328, y: 652}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -24818115
+    name: DirectionalButtons
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: DirectionalButtons_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: 6e6ed30a876cb3941b35420e49887564
+    - name: DirectionalButtons_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: e286f96c9ca0e10429131fcba97bb244
+    - name: DirectionalButtons_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: 132dc60382876424f828f82a87d868a9
+    - name: DirectionalButtons_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: 6d0b54bed405f8349a4bcc5d8f75e840
+    - name: DirectionalButtons_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: 3a7e80b0e98d30744942eff36c93aac9
+    - name: DirectionalButtons_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: e38e37d92e71ca045a793bcb9120acc7
+    - name: DirectionalButtons_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: 66e4c6641bc88524cbeb307925ed2efc
+    - name: DirectionalButtons_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: 9b4f65ff9efb91344b1ff49633509249
+    - name: DirectionalButtons_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: 3feff523ea535de4fb368bed36f8cf3b
+    - name: DirectionalButtons_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: 8e70c2d22311fce4f9ce2f21c564030e
+    - name: DirectionalButtons_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: 7e402c7e3628a7d41ada7496ccd4eada
+    - name: DirectionalButtons_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: 88c580137b50d714fba4b136840edcc5
+    - name: DirectionalButtons_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: f7bd3f1e597af5046a82ae75888fe6b3
+    - name: DirectionalButtons_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: 57cd3e280bff335469cd9a851d841b67
+    - name: DirectionalButtons_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: fa794fb13b5376d4a812b2cbc2b459b9
+    - name: DirectionalButtons_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: 793f8a1f47cf7d94db03f1dd7fbf9c26
+    - name: DirectionalButtons_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: 7c79087a62020064fa99502dc7792bad
+    - name: DirectionalButtons_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: 5665cf1b5c0416947a42eeed3d07b5af
+    - name: DirectionalButtons_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: 29e1c380f5caac848a10f324396e610b
+    - name: DirectionalButtons_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: e31adb4d069ea234d8a44ca3ab1a52cb
+    - name: DirectionalButtons_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: dde3a69f36f2137479cb477408b2db9f
+    - name: DirectionalButtons_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: 13343d8f8a939574ca32d3f5cf65ad02
+    - name: DirectionalButtons_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: e8d7511497e6b464d91ade3c07693524
+    - name: DirectionalButtons_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: 4fddc29130331774cb9292bc24fb5e23
+    - name: DirectionalButtons_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: 24fa66fe76bc6be47b59276a5c070a32
+    - name: DirectionalButtons_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: 155dc3980c405e44e9c73fc78919b7c7
+    - name: DirectionalButtons_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: a2159395be5a30841848ed65e26209d2
+    - name: DirectionalButtons_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: c0412f0489bb0bd4bb92f6eeb6a0d264
+    - name: DirectionalButtons_Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: 093c2edc38f8b3f48b7c063faeec050e
+    - name: DirectionalButtons_Frame_29
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: 40e954357ecdded46991425fbe3d429a
+    - name: DirectionalButtons_Frame_30
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: c59d9d6eea1e3af4b876bb7e23fedbdd
+    - name: DirectionalButtons_Frame_31
+      frameIndex: 31
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: ef054a95eb888d140a51dea3140bf934
+    - name: DirectionalButtons_Frame_32
+      frameIndex: 32
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: 8e0cac7804028784bb83b92440a1a5f6
+    - name: DirectionalButtons_Frame_33
+      frameIndex: 33
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -68
+        width: 100
+        height: 100
+      spriteId: 7b4a8e04bfd8b5d458c984d630f4c374
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: Default
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}
