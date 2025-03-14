@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class AdventurePlayer : MonoBehaviour
 {
@@ -109,8 +110,8 @@ public class AdventurePlayer : MonoBehaviour
         }
     }
 
-    void lose(){
-
+    public void lose(){
+        SceneManager.LoadScene("SplashScene");
     }
 
     void Activate(){

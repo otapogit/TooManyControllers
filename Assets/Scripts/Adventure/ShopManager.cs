@@ -9,7 +9,6 @@ public class ShopManager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        Activate();
     }
 
 
@@ -30,7 +29,7 @@ public class ShopManager : MonoBehaviour
         EventManager.KKeyPressed += AddHp;
     }
 
-    void Deactivate(){
+    void DeActivate(){
         EventManager.JKeyPressed -= AddEnergy;
         EventManager.KKeyPressed -= AddHp;
     }
