@@ -7,7 +7,7 @@ public class ChangeChannel :  MonoBehaviour,Button
 
     public GameObject left, right, up, down;
     Animator anim;
-
+    public int channel;
 
     void Awake()
     {
@@ -34,6 +34,7 @@ public class ChangeChannel :  MonoBehaviour,Button
         else return this;
     }
     public  void ExecuteAction(){
+        TVManager.instance.ChangeChannel(channel);
         return;
     }
 }

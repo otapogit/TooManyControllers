@@ -67,24 +67,24 @@ public class EventManager : MonoBehaviour
             KKeyPressed?.Invoke();
         }
 
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             UpKeyPressed?.Invoke();
         }
-        else if (Input.GetKey(KeyCode.DownArrow))
+        else if (Input.GetKeyDown(KeyCode.DownArrow))
         {
             DownKeyPressed?.Invoke();
         }
-        else if (Input.GetKey(KeyCode.LeftArrow))
+        else if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             LeftKeyPressed?.Invoke();
         }
-        else if (Input.GetKey(KeyCode.RightArrow))
+        else if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             RightKeyPressed?.Invoke();
         }
 
-        if (Input.GetKey(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.Return))
         {
             EnterKeyPressed?.Invoke();
         }

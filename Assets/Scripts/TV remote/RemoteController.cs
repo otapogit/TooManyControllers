@@ -15,43 +15,37 @@ public class RemoteController : MonoBehaviour
     {
         selectedButton =startbutton;
         selectedButton.SetSelected();
+        EventManager.UpKeyPressed += UpChannel;
+        EventManager.DownKeyPressed += DownChannel;
+        EventManager.RightKeyPressed += RightChannel;
+        EventManager.LeftKeyPressed += LeftChannel;
+        EventManager.EnterKeyPressed += ExecuteAction;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.UpArrow)){
-
+    void UpChannel(){
             selectedButton.SetUnselected();
-            cond = true;
             selectedButton = selectedButton.ChangeButton(0,1);
             selectedButton.SetSelected();
-        }
-        else if(Input.GetKeyDown(KeyCode.DownArrow)){
+    }
+
+        void DownChannel(){
             selectedButton.SetUnselected();
-            cond = true;
             selectedButton = selectedButton.ChangeButton(0,-1);
             selectedButton.SetSelected();
-        }
-        else if(Input.GetKeyDown(KeyCode.RightArrow)){
+    }
+        void RightChannel(){
             selectedButton.SetUnselected();
-            cond = true;
             selectedButton = selectedButton.ChangeButton(1,0);
             selectedButton.SetSelected();
-        }
-        else if(Input.GetKeyDown(KeyCode.LeftArrow)){
+    }
+        void LeftChannel(){
             selectedButton.SetUnselected();
-            cond = true;
             selectedButton = selectedButton.ChangeButton(-1,0);
             selectedButton.SetSelected();
-        }
+    }
 
-        if(!cond) return;
-
-        if(Input.GetKeyDown(KeyCode.Return)){
-            selectedButton.SetPressed();
-        }
-
+    void ExecuteAction(){
         selectedButton.ExecuteAction();
-    }   
+    }
+ 
 }

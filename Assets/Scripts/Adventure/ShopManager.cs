@@ -7,9 +7,6 @@ public class ShopManager : MonoBehaviour
 {
     public AdventurePlayer player;
     // Start is called before the first frame update
-    void Awake()
-    {
-    }
 
 
     void AddEnergy(){
@@ -24,12 +21,12 @@ public class ShopManager : MonoBehaviour
         player.PrintHP();
     }
 
-    void Activate(){
+    public void Activate(){
         EventManager.JKeyPressed += AddEnergy;
         EventManager.KKeyPressed += AddHp;
     }
 
-    void DeActivate(){
+    public void DeActivate(){
         EventManager.JKeyPressed -= AddEnergy;
         EventManager.KKeyPressed -= AddHp;
     }
