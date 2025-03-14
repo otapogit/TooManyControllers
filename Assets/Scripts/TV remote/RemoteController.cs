@@ -15,11 +15,7 @@ public class RemoteController : MonoBehaviour
     {
         selectedButton =startbutton;
         selectedButton.SetSelected();
-        EventManager.UpKeyPressed += UpChannel;
-        EventManager.DownKeyPressed += DownChannel;
-        EventManager.RightKeyPressed += RightChannel;
-        EventManager.LeftKeyPressed += LeftChannel;
-        EventManager.EnterKeyPressed += ExecuteAction;
+        Activate();
     }
 
     void UpChannel(){
@@ -48,4 +44,18 @@ public class RemoteController : MonoBehaviour
         selectedButton.ExecuteAction();
     }
  
+    void Activate(){
+        EventManager.UpKeyDown += UpChannel;
+        EventManager.DownKeyDown += DownChannel;
+        EventManager.RightKeyDown += RightChannel;
+        EventManager.LeftKeyDown += LeftChannel;
+        EventManager.EnterKeyPressed += ExecuteAction;
+    }
+    void DeActivate(){
+        EventManager.UpKeyDown -= UpChannel;
+        EventManager.DownKeyDown -= DownChannel;
+        EventManager.RightKeyDown -= RightChannel;
+        EventManager.LeftKeyDown -= LeftChannel;
+        EventManager.EnterKeyPressed -= ExecuteAction;
+    }
 }

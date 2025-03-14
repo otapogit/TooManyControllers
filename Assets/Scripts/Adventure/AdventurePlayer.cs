@@ -13,6 +13,8 @@ public class AdventurePlayer : MonoBehaviour
     Enemy attacker;
     // Start is called before the first frame update
 
+    public ShopManager sp;
+
     public int hp = 100;
     public int attack = 1;
     public float energy = 100;
@@ -38,12 +40,12 @@ public class AdventurePlayer : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D other){
-        EventManager.KKeyPressed += Attack;
+        EventManager.KKeyDown += Attack;
         attacker = other.gameObject.GetComponent<Enemy>();
     }
 
     void OnTriggerExit2D(Collider2D other){
-        EventManager.KKeyPressed -= Attack;
+        EventManager.KKeyDown -= Attack;
         attacker = null;
     }
 
@@ -110,10 +112,13 @@ public class AdventurePlayer : MonoBehaviour
     }
 
     public void lose(){
+        DeActivate();
+        sp.DeActivate();
         SceneManager.LoadScene("SplashScene");
     }
 
     public void Activate(){
+        
         EventManager.WKeyPressed += MoveUp;
         EventManager.AKeyPressed += MoveLeft;
         EventManager.DKeyPressed += MoveRight;

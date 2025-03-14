@@ -22,12 +22,12 @@ public class ShopManager : MonoBehaviour
     }
 
     public void Activate(){
-        EventManager.JKeyPressed += AddEnergy;
-        EventManager.KKeyPressed += AddHp;
+        EventManager.JKeyDown += AddEnergy;
+        EventManager.KKeyDown += AddHp;
     }
 
     public void DeActivate(){
-        EventManager.JKeyPressed -= AddEnergy;
-        EventManager.KKeyPressed -= AddHp;
+        EventManager.JKeyDown -= AddEnergy;
+        EventManager.KKeyDown -= AddHp;
     }
 }

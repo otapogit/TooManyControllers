@@ -6,8 +6,10 @@ public class TVManager : MonoBehaviour
 {
     public static TVManager instance;
 
+    AudioSource source;
 
     public GameObject tv;
+    public AudioClip changesound;
     [Header("Adventure")]
     public AdventurePlayer advplayer;
     public Material advtexture;
@@ -20,6 +22,9 @@ public class TVManager : MonoBehaviour
 
     [Header("Mierda")]
     public Material sadbabtex;
+    public AudioClip kbabmusic;
+    bool kbabsubbed = false;
+    float timing = 0;
 
     void Awake(){
         if(instance == null){
@@ -29,22 +34,23 @@ public class TVManager : MonoBehaviour
 
     void Start()
     {
+        source = GetComponent<AudioSource>();
         ChangeChannel(1);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.V)){
-            ChangeChannel(1);
-        }else if(Input.GetKeyDown(KeyCode.B)){
-            ChangeChannel(2);
+        if(kbabsubbed){
+            timing += Time.deltaTime;
         }
     }
 
 
     public void ChangeChannel(int channel){
         UnsubAll();
+        source.time = 0;
+        source.PlayOneShot(changesound);
         switch(channel){
             case 1: 
                 advplayer.Activate();
@@ -59,6 +65,10 @@ public class TVManager : MonoBehaviour
 
             case 7:
                 tv.GetComponent<Renderer>().material = sadbabtex;
+                kbabsubbed = true;
+                source.clip = kbabmusic;
+                source.time = timing;
+                source.Play();
                 break;
                 //lol
             default: break;
@@ -73,6 +83,12 @@ public class TVManager : MonoBehaviour
         if(shopsubbed){
             shopsubbed = false;
             shop.DeActivate();
+        }
+       if(kbabsubbed){
+            kbabsubbed = false;
+            source.Stop();
+            source.clip = null;
+
         }
     }
 }
