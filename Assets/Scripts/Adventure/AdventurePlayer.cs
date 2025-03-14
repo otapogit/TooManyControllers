@@ -14,19 +14,14 @@ public class AdventurePlayer : MonoBehaviour
         EventManager.WKeyPressed += MoveUp();
         EventManager.AKeyPressed += MoveLeft();
         EventManager.DKeyPressed += MoveRight();
-        EventManager.XKeyPressed += MoveDown();        
+        EventManager.XKeyPressed += MoveDown();    
+        EventManager.NoWAXDKeyPressed += MoveNone();    
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.D)){
-            MoveRight();
-        }else if(Input.GetKey(KeyCode.X)){
-            MoveDown();
-        }else if(Input.GetKey(KeyCode.A)){
-            MoveLeft();
-        }
+
     }
 
     Action MoveRight(){
