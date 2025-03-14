@@ -15,7 +15,7 @@ public class AdventurePlayer : MonoBehaviour
         EventManager.AKeyPressed += MoveLeft();
         EventManager.DKeyPressed += MoveRight();
         EventManager.XKeyPressed += MoveDown();    
-        EventManager.NoWAXDKeyPressed += MoveNone();    
+        //EventManager.NoWaxdKeyPressed += MoveNone();    
     }
 
     // Update is called once per frame
@@ -25,6 +25,7 @@ public class AdventurePlayer : MonoBehaviour
     }
 
     Action MoveRight(){
+
         rb.velocity = new Vector3(1 * speed,0,0);
         return null;    
     }
@@ -35,6 +36,7 @@ public class AdventurePlayer : MonoBehaviour
     }
 
     Action MoveDown(){
+        Debug.Log("Hellou");
         rb.velocity = new Vector3(0,-1* speed,0);
         return null;
     }

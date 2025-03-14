@@ -1,0 +1,1284 @@
+fileFormatVersion: 2
+guid: b856e9e6468934a429d3bf1ff4748ee7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 388
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7c1507e37744f488538199a7e6b31f
+      internalID: 263351469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 388
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0db4404459ec364ba96b897ae042fb1
+      internalID: -1702743859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 388
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171aa454725e31d46b121bc480afbc10
+      internalID: -1248368740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 388
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8157f25413e784d839b963a49ba231
+      internalID: 768063608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 356
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c292248f361f3042964953662f411bb
+      internalID: -164881368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 356
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e28cbbc0158f554fbee99d2f77a70bb
+      internalID: -2062842193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_6
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 356
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3853fcaf8867ccb4ca68a8046ddea75a
+      internalID: -1829535275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_7
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 356
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9921ed5ab90bd4941bf0e82848baaaa5
+      internalID: -1811660657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 324
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a1a0c439561d44cb45cecc8b995ad9
+      internalID: -902576923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_9
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 324
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffdd3cd32d9a43841bca267584359a9c
+      internalID: -9842140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 324
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0868e86d8614749a2082ea374a93a2
+      internalID: 1697353896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_11
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 324
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fbf5c423be9374392ce52afc844bff
+      internalID: -2007855668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 292
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9984e0ba50125f944a5706eb0ab36719
+      internalID: 1270386740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_13
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 292
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef1279659ce5da48bbf4ea7eb9e91ce
+      internalID: -420016031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_14
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 292
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa4bc5ce23a72345ab0bc8c428f3954
+      internalID: -360968943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_15
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 292
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc24edaee175e744a66f23691683b7e
+      internalID: 120744381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_16
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 260
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9445ee015819784d81f36ee8a2f680c
+      internalID: 1564840771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_17
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 260
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad05c4bc0207bf41b017351d29682b7
+      internalID: 312154077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_18
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 260
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26085df3d83be554ea995a4915efaf31
+      internalID: -988433360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_19
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 260
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a49b70d578da94cbb3a69d98749c8c
+      internalID: -1721084349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 228
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca27c0d1d51b1a74c81f63218503f861
+      internalID: 1694040629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_21
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 228
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ae9f1d44bcaec4ba37e86f8a17e0da
+      internalID: -2043606675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_22
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 228
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765d133e47644e94685a40148c3d88bb
+      internalID: -1970785399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_23
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 228
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e4550adf91fc142bc48bf194722524
+      internalID: 803892465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_24
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 196
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550e075d0f0989a4b8c1470b77f59773
+      internalID: 1121697817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_25
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 196
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9038aed379393428e107746d9a6147
+      internalID: -553240769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_26
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 196
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bbf3eac92ebfe48a242527e6cdb964
+      internalID: -1980042315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_27
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 196
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd6da9307437d144b3f9aed277ba268
+      internalID: -1510653656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_28
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 164
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfc62b707705c1468438b64c38c219b
+      internalID: 1708760595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_29
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 164
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8279e48a6878731468fa17c1e3081082
+      internalID: 1591462350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_30
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 164
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016411a7e92039346b1fbb8aaa6c7112
+      internalID: -551929110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_31
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 164
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038a08b33d50cfe4fa57d0d22fea18f1
+      internalID: 1133127098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_32
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 132
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c64da8cadc3be4389918c84c0eb653
+      internalID: 537698258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_33
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 132
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bcd0205fc8b25408a4e0bf48ff4139
+      internalID: -658989019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_34
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 132
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1910e0d44a3ce48bf4c8a4534d1e99
+      internalID: -1921972023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_35
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 132
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490b81e66706fc741a752610fc728006
+      internalID: -322930528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_36
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 100
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d4cc1a577e6614193a93b8b6d57de3
+      internalID: -1506312616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_37
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 100
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b198ce3c48ccc4fb18472fb12c4481
+      internalID: -248642618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_38
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 100
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2228a9bba14aa9744a2df2744dc9e263
+      internalID: 199370848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_39
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 100
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4057914d3d9ff0040bba04d792d04f08
+      internalID: 1324887974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_40
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 68
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6626739aa6d3946850afc1b784f4b6
+      internalID: 804300990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_41
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 68
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376b5660dd82a044da077a169ce3785b
+      internalID: -409891926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_42
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 68
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d8c1b323f643642bb836cbc884dd7d
+      internalID: 1690585599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_43
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 68
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccea8de528d9a54aa1bc72678a5f766
+      internalID: 156807294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_44
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 36
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9378903a9f8d943bcd7b839519e7fd
+      internalID: 1289890240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_45
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 36
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53b94248483daa4cb6a291970fc585a
+      internalID: -1728965878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_46
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 36
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84f354965bb40d49bade47ab57b5cef
+      internalID: 1173538910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_47
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 36
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad75b332df79f7246a55d66ac51515d0
+      internalID: 554796445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_48
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 4
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b0c4cadb3989a47a7fa8e81b95bb0f
+      internalID: 1905437461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_49
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 4
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a86b04e8d045c245a22406187ae36b2
+      internalID: -596393284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_50
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 4
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923c2759d52e29d40aad14e891990481
+      internalID: 672603121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIRDSPRITESHEET_White_51
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 4
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfb7bb04f024f742b6e5e7d0fdc5840
+      internalID: 1369301043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BIRDSPRITESHEET_White_0: 263351469
+      BIRDSPRITESHEET_White_1: -1702743859
+      BIRDSPRITESHEET_White_10: 1697353896
+      BIRDSPRITESHEET_White_11: -2007855668
+      BIRDSPRITESHEET_White_12: 1270386740
+      BIRDSPRITESHEET_White_13: -420016031
+      BIRDSPRITESHEET_White_14: -360968943
+      BIRDSPRITESHEET_White_15: 120744381
+      BIRDSPRITESHEET_White_16: 1564840771
+      BIRDSPRITESHEET_White_17: 312154077
+      BIRDSPRITESHEET_White_18: -988433360
+      BIRDSPRITESHEET_White_19: -1721084349
+      BIRDSPRITESHEET_White_2: -1248368740
+      BIRDSPRITESHEET_White_20: 1694040629
+      BIRDSPRITESHEET_White_21: -2043606675
+      BIRDSPRITESHEET_White_22: -1970785399
+      BIRDSPRITESHEET_White_23: 803892465
+      BIRDSPRITESHEET_White_24: 1121697817
+      BIRDSPRITESHEET_White_25: -553240769
+      BIRDSPRITESHEET_White_26: -1980042315
+      BIRDSPRITESHEET_White_27: -1510653656
+      BIRDSPRITESHEET_White_28: 1708760595
+      BIRDSPRITESHEET_White_29: 1591462350
+      BIRDSPRITESHEET_White_3: 768063608
+      BIRDSPRITESHEET_White_30: -551929110
+      BIRDSPRITESHEET_White_31: 1133127098
+      BIRDSPRITESHEET_White_32: 537698258
+      BIRDSPRITESHEET_White_33: -658989019
+      BIRDSPRITESHEET_White_34: -1921972023
+      BIRDSPRITESHEET_White_35: -322930528
+      BIRDSPRITESHEET_White_36: -1506312616
+      BIRDSPRITESHEET_White_37: -248642618
+      BIRDSPRITESHEET_White_38: 199370848
+      BIRDSPRITESHEET_White_39: 1324887974
+      BIRDSPRITESHEET_White_4: -164881368
+      BIRDSPRITESHEET_White_40: 804300990
+      BIRDSPRITESHEET_White_41: -409891926
+      BIRDSPRITESHEET_White_42: 1690585599
+      BIRDSPRITESHEET_White_43: 156807294
+      BIRDSPRITESHEET_White_44: 1289890240
+      BIRDSPRITESHEET_White_45: -1728965878
+      BIRDSPRITESHEET_White_46: 1173538910
+      BIRDSPRITESHEET_White_47: 554796445
+      BIRDSPRITESHEET_White_48: 1905437461
+      BIRDSPRITESHEET_White_49: -596393284
+      BIRDSPRITESHEET_White_5: -2062842193
+      BIRDSPRITESHEET_White_50: 672603121
+      BIRDSPRITESHEET_White_51: 1369301043
+      BIRDSPRITESHEET_White_6: -1829535275
+      BIRDSPRITESHEET_White_7: -1811660657
+      BIRDSPRITESHEET_White_8: -902576923
+      BIRDSPRITESHEET_White_9: -9842140
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

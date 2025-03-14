@@ -1,0 +1,1284 @@
+fileFormatVersion: 2
+guid: 13544e6a198a27148811fab5db9c477a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 388
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69dba61060036143b06a9881373a44d
+      internalID: -2019947816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 388
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba14f44d9039624599cbac63b6182e5
+      internalID: -1180084897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 388
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01806528e699c9e498a38dd7c13ec7a3
+      internalID: 1147242239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 388
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1256f5c70c15c614faa81f4df0721292
+      internalID: -451671071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 356
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cdf3864e4922c409a21b5b2c8d49e0
+      internalID: -1705648810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_5
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 356
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4935e6593f6064e82eb51af35c7650
+      internalID: -1659768815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_6
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 356
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4492166e6290d9d4b832822f1ff0f732
+      internalID: 1345585500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_7
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 356
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6a9d199010cbf48b8d48881fe8df9c
+      internalID: 797325181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 324
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafe0111e8b2c7e43a859ca5f41510a2
+      internalID: -990912263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_9
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 324
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8f867346f8085488f62d5ad0167dde
+      internalID: -643079277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 324
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48462c93893a6e43b69acbcb8af6b52
+      internalID: 2111244566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_11
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 324
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69756809faa6dc44a9186edf46d644b
+      internalID: -420752271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 292
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242958fe512dead45ab59d62e39c8c8a
+      internalID: 1299903696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_13
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 292
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d25d66349086e444ae8979ad427b20c
+      internalID: 1762536016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_14
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 292
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3f4d9a34bd46840ba1fb4ceeb82f27
+      internalID: 900416870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_15
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 292
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8bf5acafcc440844ab94e97073c2a89
+      internalID: 596471943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 260
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15c6f2f7156f7d4faf4e04bf1a47287
+      internalID: -658836523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_17
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 260
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b06f5be00e1b641a0f94401d42577b
+      internalID: 478501725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_18
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 260
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d413e7a0a87e244873127e4c5497e3
+      internalID: 1954945855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_19
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 260
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851990cea974af749b8c00cddfa22f27
+      internalID: -1644194662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 228
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a35b71beab2194494607d85c8e44e4
+      internalID: 220771224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_21
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 228
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6a9928713b25b4e878af7c2bb72526
+      internalID: -987743616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_22
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 228
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743448a9467c7e94f8c53cceb8758df6
+      internalID: 709287367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_23
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 228
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89f279facfc191498e40d193169f762
+      internalID: -411267489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 196
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160d38ca9caec474f901f7d89f29f1ff
+      internalID: 1940418102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_25
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 196
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0a7291de07eeb44ae2afa3af60b270
+      internalID: 127611035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_26
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 196
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49c6bc4f82627d42a34d7d3118846cd
+      internalID: -1907390592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_27
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 196
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f755b976ffff6ec42998ab5bf772508d
+      internalID: 22956489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_28
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 164
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f027170bdd358e4ea9f0bb2a615a254
+      internalID: -1895504266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_29
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 164
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682b88e8a9da3f34d84aab95dafc1a1f
+      internalID: 154590744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_30
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 164
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1ec765970c3f240b8109e307bd32db
+      internalID: 1366854685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_31
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 164
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac662255cb647ea4cabd6c6daab79a4d
+      internalID: 616300648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_32
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 132
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15c3537b93a19344b6d82b190679f2b
+      internalID: -1021402625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_33
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 132
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe65659a4fd4d340b83b4dd93286f89
+      internalID: 2020453527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_34
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 132
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9751d809e69aa44db693758159f20b4
+      internalID: -866833013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_35
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 132
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3874fe3efd1b614eaa5cea241599e7b
+      internalID: 809796766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_36
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 100
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac1fa1f2a7e76544bb66120dd60705c
+      internalID: 863354105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_37
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 100
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bc349e93f1cc74a873953ae576b37e
+      internalID: -246644012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_38
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 100
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c82711011fc204299482189237ebe4
+      internalID: -1070650844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_39
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 100
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1381f9e3c0ffa3b48932e42b2ee8abe9
+      internalID: 1649753475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_40
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 68
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ccb8be574ae6542ab4ff340cd2068f
+      internalID: -1129655201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_41
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 68
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db50104ad45736f4d9f95ad6ef06adc6
+      internalID: 601529979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_42
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 68
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec51c4b635585e7429464f3994c770b2
+      internalID: -934055266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_43
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 68
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de4540623e992e45aa1be1bd956139d
+      internalID: -908396021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_44
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 36
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26cf1ebdabdd82e4998a7f91b27000c1
+      internalID: -137430354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_45
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 36
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc52d0446849ca4993253271dba40af
+      internalID: -753165063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_46
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 36
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7acfb816e645440ab27865b45cd7a5
+      internalID: -49108712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_47
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 36
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df068e0341a0cf243867db544c2c5831
+      internalID: -2018867418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_48
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 4
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13495340388e63946a315ac4d89f298f
+      internalID: -775156915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_49
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 4
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20336bae02367df42aca2ae545f760d6
+      internalID: 556063044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_50
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 4
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72eae3c78030094881fedfb10ccc054
+      internalID: -1853254787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Gray_51
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 4
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6811864b47f5184eaa0e37908093a71
+      internalID: -1254039903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CATSPRITESHEET_Gray_0: -2019947816
+      CATSPRITESHEET_Gray_1: -1180084897
+      CATSPRITESHEET_Gray_10: 2111244566
+      CATSPRITESHEET_Gray_11: -420752271
+      CATSPRITESHEET_Gray_12: 1299903696
+      CATSPRITESHEET_Gray_13: 1762536016
+      CATSPRITESHEET_Gray_14: 900416870
+      CATSPRITESHEET_Gray_15: 596471943
+      CATSPRITESHEET_Gray_16: -658836523
+      CATSPRITESHEET_Gray_17: 478501725
+      CATSPRITESHEET_Gray_18: 1954945855
+      CATSPRITESHEET_Gray_19: -1644194662
+      CATSPRITESHEET_Gray_2: 1147242239
+      CATSPRITESHEET_Gray_20: 220771224
+      CATSPRITESHEET_Gray_21: -987743616
+      CATSPRITESHEET_Gray_22: 709287367
+      CATSPRITESHEET_Gray_23: -411267489
+      CATSPRITESHEET_Gray_24: 1940418102
+      CATSPRITESHEET_Gray_25: 127611035
+      CATSPRITESHEET_Gray_26: -1907390592
+      CATSPRITESHEET_Gray_27: 22956489
+      CATSPRITESHEET_Gray_28: -1895504266
+      CATSPRITESHEET_Gray_29: 154590744
+      CATSPRITESHEET_Gray_3: -451671071
+      CATSPRITESHEET_Gray_30: 1366854685
+      CATSPRITESHEET_Gray_31: 616300648
+      CATSPRITESHEET_Gray_32: -1021402625
+      CATSPRITESHEET_Gray_33: 2020453527
+      CATSPRITESHEET_Gray_34: -866833013
+      CATSPRITESHEET_Gray_35: 809796766
+      CATSPRITESHEET_Gray_36: 863354105
+      CATSPRITESHEET_Gray_37: -246644012
+      CATSPRITESHEET_Gray_38: -1070650844
+      CATSPRITESHEET_Gray_39: 1649753475
+      CATSPRITESHEET_Gray_4: -1705648810
+      CATSPRITESHEET_Gray_40: -1129655201
+      CATSPRITESHEET_Gray_41: 601529979
+      CATSPRITESHEET_Gray_42: -934055266
+      CATSPRITESHEET_Gray_43: -908396021
+      CATSPRITESHEET_Gray_44: -137430354
+      CATSPRITESHEET_Gray_45: -753165063
+      CATSPRITESHEET_Gray_46: -49108712
+      CATSPRITESHEET_Gray_47: -2018867418
+      CATSPRITESHEET_Gray_48: -775156915
+      CATSPRITESHEET_Gray_49: 556063044
+      CATSPRITESHEET_Gray_5: -1659768815
+      CATSPRITESHEET_Gray_50: -1853254787
+      CATSPRITESHEET_Gray_51: -1254039903
+      CATSPRITESHEET_Gray_6: 1345585500
+      CATSPRITESHEET_Gray_7: 797325181
+      CATSPRITESHEET_Gray_8: -990912263
+      CATSPRITESHEET_Gray_9: -643079277
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

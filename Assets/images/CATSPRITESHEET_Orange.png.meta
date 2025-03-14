@@ -1,0 +1,1284 @@
+fileFormatVersion: 2
+guid: 4b4969fe57f078445a06114b2d697e42
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 388
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71aa7e3064026864c91ed57a3340182b
+      internalID: -588162654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 388
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15f5d41e16cffd4cb364897ffea373d
+      internalID: 969822628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 388
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35c5a74e49c856408a0418eca0e4e1f
+      internalID: -1959886987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 388
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cdaf761fce72a4fa4b461c1b780964
+      internalID: -2052258595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 356
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd00c8cc703a8994692615cdaead205a
+      internalID: -1415821169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_5
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 356
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f3bbc5cd7636f49a1efd874a136f83
+      internalID: 1976441487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_6
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 356
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9057a66dce268d8488f03be222af75dd
+      internalID: -952432053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_7
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 356
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18290802a42f4b240ad0b24088668226
+      internalID: 938806903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 324
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc37410a7f188c4b9e879d84a48e473
+      internalID: 1781012797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_9
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 324
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61976f0841b047246942d7d759a44bd6
+      internalID: -1715017583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 324
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed12fe8c563ba254791825356f8a86d7
+      internalID: -1879827610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_11
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 324
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e840bf381b0c542939acc70a10c15e
+      internalID: -2039103389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 292
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74dc3d38f174d740bf55047a4d3aab8
+      internalID: 1073374821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_13
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 292
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82246a97f55f964fb3949a155ea4d96
+      internalID: 313800099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_14
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 292
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9997dc5a6e5c8f149bba3ad135a50be1
+      internalID: -162675403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_15
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 292
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675e5a74fa9a2ea4d952d559af442c06
+      internalID: -110277894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 260
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d88573d3772294ab79910dbad70e53
+      internalID: 538968267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_17
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 260
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3708f5eae0c8c9f46b0be481cb65e2c1
+      internalID: -1410809045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_18
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 260
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8069d79826ec246a55186048202959
+      internalID: -1016716842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_19
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 260
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c29b9b22f46ca4f9273b77cd59f174
+      internalID: -758206167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 228
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761289162c8f48d499b37cce8f74deec
+      internalID: -35703052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_21
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 228
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332c615ce2525e94f954cadaba9cb556
+      internalID: -1932277479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_22
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 228
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85481727a5285bd42b262af3a6143004
+      internalID: -1788926718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_23
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 228
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2e684225bf33b42b7eac111488c739
+      internalID: -1800514910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 196
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7202a833a00904ca6641c70b289b9f
+      internalID: -662586299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_25
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 196
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8596cdb6f869c418718eeb80de4983
+      internalID: 1667328334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_26
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 196
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a0e33762917154b998c9cdc9f98499
+      internalID: 1916433953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_27
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 196
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510fc91da85b26b4fa2e002aab73bf24
+      internalID: -1926954486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_28
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 164
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd71dbd5db1bc943924a385d774c5db
+      internalID: -903041786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_29
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 164
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b37581ac57b924e8165f13c368cdce
+      internalID: -862191035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_30
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 164
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a01624543f1c69418cc33ce8099fe8a
+      internalID: -752773802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_31
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 164
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39beafbdaebbd994bbe4e98482b51e06
+      internalID: -2141506958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_32
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 132
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93320d2a7ba6d234bba70f0e235e98ba
+      internalID: 1080562543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_33
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 132
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0c79d6edde7cf498c98736530aba6d
+      internalID: -197940704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_34
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 132
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3ab2ca55793c34788da8b9dd55ef7c
+      internalID: -902329719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_35
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 132
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2a656db0f1a9c4ca4a9c3c1861ac53
+      internalID: -29561607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_36
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 100
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b81722886f6b6843a285a43b768dcd8
+      internalID: -1679101406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_37
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 100
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c133ee7bb861954bb25419e1949ffe4
+      internalID: -1167532977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_38
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 100
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee68909b743654b4395a2a7b2de29786
+      internalID: -878436508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_39
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 100
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cef900caf0ca5d428b996780bc7d0b2
+      internalID: 1510216745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_40
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 68
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed8d62b0c025154e8d48b1b0b0afe53
+      internalID: 368062194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_41
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 68
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a28602e183613a4d945a7d383736204
+      internalID: -811789221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_42
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 68
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcad43c18189ebe44b63c4c472c32c56
+      internalID: -1656412216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_43
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 68
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22b08a49e075d0419f2e5d8a2557394
+      internalID: -159343011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_44
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 36
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af156e0f2e51764cad880ee29a74b1e
+      internalID: -397645519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_45
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 36
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388a71509c1c8cf4687f6391cf43248d
+      internalID: -412340308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_46
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 36
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d83b04d77206a4798c38c2e220226d
+      internalID: 1570221177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_47
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 36
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfd4fa122d49f647a6a68aeb386671b
+      internalID: -1794074288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_48
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 4
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88b5eebe472ddc4fa66d54efbc6ad5b
+      internalID: 802384500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_49
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 4
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e2eaa9de0638844b3582149bd8b968
+      internalID: -188985148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_50
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 4
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abf1a2efe5ccc34087a38e9d7c328c6
+      internalID: -2067624759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CATSPRITESHEET_Orange_51
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 4
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106e7bef6c0aaa643aece4ef328a4027
+      internalID: 1843378911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CATSPRITESHEET_Orange_0: -588162654
+      CATSPRITESHEET_Orange_1: 969822628
+      CATSPRITESHEET_Orange_10: -1879827610
+      CATSPRITESHEET_Orange_11: -2039103389
+      CATSPRITESHEET_Orange_12: 1073374821
+      CATSPRITESHEET_Orange_13: 313800099
+      CATSPRITESHEET_Orange_14: -162675403
+      CATSPRITESHEET_Orange_15: -110277894
+      CATSPRITESHEET_Orange_16: 538968267
+      CATSPRITESHEET_Orange_17: -1410809045
+      CATSPRITESHEET_Orange_18: -1016716842
+      CATSPRITESHEET_Orange_19: -758206167
+      CATSPRITESHEET_Orange_2: -1959886987
+      CATSPRITESHEET_Orange_20: -35703052
+      CATSPRITESHEET_Orange_21: -1932277479
+      CATSPRITESHEET_Orange_22: -1788926718
+      CATSPRITESHEET_Orange_23: -1800514910
+      CATSPRITESHEET_Orange_24: -662586299
+      CATSPRITESHEET_Orange_25: 1667328334
+      CATSPRITESHEET_Orange_26: 1916433953
+      CATSPRITESHEET_Orange_27: -1926954486
+      CATSPRITESHEET_Orange_28: -903041786
+      CATSPRITESHEET_Orange_29: -862191035
+      CATSPRITESHEET_Orange_3: -2052258595
+      CATSPRITESHEET_Orange_30: -752773802
+      CATSPRITESHEET_Orange_31: -2141506958
+      CATSPRITESHEET_Orange_32: 1080562543
+      CATSPRITESHEET_Orange_33: -197940704
+      CATSPRITESHEET_Orange_34: -902329719
+      CATSPRITESHEET_Orange_35: -29561607
+      CATSPRITESHEET_Orange_36: -1679101406
+      CATSPRITESHEET_Orange_37: -1167532977
+      CATSPRITESHEET_Orange_38: -878436508
+      CATSPRITESHEET_Orange_39: 1510216745
+      CATSPRITESHEET_Orange_4: -1415821169
+      CATSPRITESHEET_Orange_40: 368062194
+      CATSPRITESHEET_Orange_41: -811789221
+      CATSPRITESHEET_Orange_42: -1656412216
+      CATSPRITESHEET_Orange_43: -159343011
+      CATSPRITESHEET_Orange_44: -397645519
+      CATSPRITESHEET_Orange_45: -412340308
+      CATSPRITESHEET_Orange_46: 1570221177
+      CATSPRITESHEET_Orange_47: -1794074288
+      CATSPRITESHEET_Orange_48: 802384500
+      CATSPRITESHEET_Orange_49: -188985148
+      CATSPRITESHEET_Orange_5: 1976441487
+      CATSPRITESHEET_Orange_50: -2067624759
+      CATSPRITESHEET_Orange_51: 1843378911
+      CATSPRITESHEET_Orange_6: -952432053
+      CATSPRITESHEET_Orange_7: 938806903
+      CATSPRITESHEET_Orange_8: 1781012797
+      CATSPRITESHEET_Orange_9: -1715017583
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
