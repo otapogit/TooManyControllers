@@ -114,7 +114,8 @@ public class AdventurePlayer : MonoBehaviour
     public void lose(){
         DeActivate();
         sp.DeActivate();
-        SceneManager.LoadScene("SplashScene");
+        GameOver.instance.ShowGameOver();
+        TVManager.instance.StopAll();
     }
 
     public void Activate(){

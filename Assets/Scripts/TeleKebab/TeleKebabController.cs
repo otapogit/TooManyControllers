@@ -151,6 +151,9 @@ public class TeleKebabController : MonoBehaviour
     void Die()
     {
         print("AAY");
+        DeActivate();
+        GameOver.instance.ShowGameOver();
+        TVManager.instance.StopAll();
     }
 
     void SpawnNPC()
